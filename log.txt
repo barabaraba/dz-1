@@ -1,3 +1,4 @@
+#i have no computer so i cant run this commands
 docker run --name grafana -d grafana/grafana
 docker stats grafana
 docker logs grafana > log.txt
