@@ -1,0 +1,7 @@
+docker run -d grafana/grafana
+docker stats grafana
+docker logs grafana > log.txt
+docker exec -it env > env.txt
+docker exec -it 'grafana-cli admin'
+docker exec -it /bin/bash
+grafana-cli admin reset-admin-passwd
